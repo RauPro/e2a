@@ -17,7 +17,7 @@ func TestPendingCountIndexMigration(t *testing.T) {
 
 	// TestDB applies the embedded migrations through the real runner. Reapply
 	// the index statement directly to also exercise its IF NOT EXISTS retry.
-	sql, err := migrations.FS.ReadFile("132_messages_agent_pending_idx.sql")
+	sql, err := migrations.FS.ReadFile("133_messages_agent_pending_idx.sql")
 	if err != nil {
 		t.Fatalf("read pending-count migration: %v", err)
 	}

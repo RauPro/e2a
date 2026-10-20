@@ -1,4 +1,4 @@
--- 132_messages_agent_pending_idx.sql
+-- 133_messages_agent_pending_idx.sql
 -- e2a:no-transaction
 --
 -- Supports ListAgentsByUser's pending_count: count outbound review holds by
